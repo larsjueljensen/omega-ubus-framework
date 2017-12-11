@@ -41,7 +41,7 @@ omega = {
         commit (config) { ... }
   },
   i2c: {
-        scan () { ... }
+        scan () { ... },
         pwm: {
                 init () { ... }
                 sleep () { ... }
