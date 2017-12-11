@@ -89,3 +89,7 @@ omega = {
   }
 }
 ```
+
+More information about the Omega2 can be found at https://onion.io/omega2/
+Documentation for the OpenWRT uBus architecture can be found at https://wiki.openwrt.org/doc/techref/ubus
+Reference documentation for the Omega2 cloud API can be found at https://sdk.onion.io/reference/onion-cloud-APIs/device-api.html#
