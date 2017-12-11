@@ -3,6 +3,7 @@
 A thin "framework" layer on top of the Onion Omega2 uBus api (also known as Omega2 cloud api).
 It only consists of one file which basically sets up the following structure:
 
+```javascript
 omega = {
   session: {
         create (timeout) { ... }
@@ -87,3 +88,4 @@ omega = {
         }
   }
 }
+```
