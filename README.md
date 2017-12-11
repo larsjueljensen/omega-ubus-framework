@@ -95,3 +95,5 @@ omega = {
 * Reference documentation for the Omega2 cloud API can be found at https://sdk.onion.io/reference/onion-cloud-APIs/device-api.html#
 
 I made this 'framework' in order to simplify development of Omega2 web-interfaces. Another way would be to register your device for the Omega2 cloud API, and develop an Omega2 app that can be launched from the console. This project, however, makes it easier to create a 'web-page' that lets you control various aspects of your Omega2.
+
+#Omega2 #OpenWRT #uBus #Onion
