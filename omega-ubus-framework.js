@@ -123,17 +123,15 @@ window.omega = (function () {
             this.params = [
                 uBusSession.session,
                 "system",
-                command
+                command,
+                params
             ];
-            if (params) {
-                this.params.push(params);
-            }
         }
     }
 
     class SystemService {
-        board () { return call(new SystemCommand('board')); }
-        info () { return call(new SystemCommand('info')); }
+        board () { return call(new SystemCommand('board', {})); }
+        info () { return call(new SystemCommand('info', {})); }
         signal (pid, signum) { return call(new SystemCommand('signal', {pid: pid, signum: signum})); }
     }
 
