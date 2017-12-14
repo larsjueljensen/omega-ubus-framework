@@ -141,11 +141,9 @@ window.omega = (function () {
             this.params = [
                 uBusSession.session,
                 "uci",
-                command
+                command,
+                params || {}
             ];
-            if (params) {
-                this.params.push(params);
-            }
         }
     }
 
@@ -169,7 +167,7 @@ window.omega = (function () {
                 service,
                 {
                     command: command,
-                    options: options,
+                    options: options || {},
                     params: params
                 }
             ];
